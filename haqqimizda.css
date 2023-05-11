@@ -1,0 +1,99 @@
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+      url(eduford_img/aztu.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  h1{
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav img {
+    width: 150px;
+  }
+  
+  .nav-links {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+  }
+  
+  .nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  
+  .nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  
+  .nav-links ul li:hover::after {
+    width: 100%;
+  }
+  
+  footer {
+    background-color: #536278;
+  }
+  footer .container .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-bottom: 1px solid #ff6262;
+    line-height: 32px;
+  }
+  footer .container .top li {
+    color: #391400;
+  }
+  footer .container .top i {
+    background-color: #d85744;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 17px;
+    color: #fff;
+    gap: 8px;
+  }
+  footer .container .bottom {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer .container .bottom p {
+    color: #391400;
+  }
+  footer .container .bottom .left .copy {
+    opacity: 64%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .container .bottom .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 68px;
+  }
